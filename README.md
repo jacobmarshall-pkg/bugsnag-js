@@ -2,7 +2,10 @@
 
 A bunch of small re-implementations of the Bugsnag JS notifier for modern web apps.
 
+**Please be warned, this module is currently unstable and untested. Please do not use in production unless you know the limitations.**
+
 This module is also useful for embedding into smaller libraries, frameworks, or SDKs which wish to report their own errors.
+It does not automatically notify when there are errors uncaught on the page, you are expected to bring that functionality along with you.
 
 ## Example
 
@@ -55,3 +58,7 @@ The version number of your application. Used to help track when errors were intr
 ### severity `string`
 
 The default severity for all errors (unless overridden). This is set to `error` by default. Can be one of these three; `info`, `warning`, `error`.
+
+## License
+
+MIT License
