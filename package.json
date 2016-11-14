@@ -1,6 +1,6 @@
 {
   "name": "@jacobmarshall/bugsnag-js",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A bunch of small re-implementations of the Bugsnag JS notifier for modern web apps",
   "author": "Jacob Marshall <git@jacobmarshall.co>",
   "main": "index.js",
