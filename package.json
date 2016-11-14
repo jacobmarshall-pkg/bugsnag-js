@@ -1,0 +1,5 @@
+{
+  "name": "@jacobmarshall/bugsnag-js",
+  "version": "0.0.0",
+  "description": "A bunch of small re-implementations of the Bugsnag JS notifier for modern web apps"
+}
