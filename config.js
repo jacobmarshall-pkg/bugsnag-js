@@ -3,7 +3,9 @@ module.exports = {
   endpoint: 'https://notify.bugsnag.com/js',
   projectRoot: null,
   context: null,
-  user: null,
-  releaseStage: null,
+  user: {},
+  metaData: {},
+  releaseStage: 'production',
   appVersion: null,
+  severity: 'error',
 };
