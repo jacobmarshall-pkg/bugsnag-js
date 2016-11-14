@@ -21,7 +21,7 @@ function notify(err, options) {
     projectRoot: config.projectRoot || window.location.protocol + '//' + window.location.host,
     context: config.context || window.location.pathname,
     user: config.user,
-    metaData: merge(merge({}, config.metaData), config.metaData || {}),
+    metaData: merge(merge({}, config.metaData), options.metaData || {}),
     releaseStage: config.releaseStage,
 
     appVersion: config.appVersion,
